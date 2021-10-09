@@ -1,0 +1,225 @@
+.nav-item a:hover{
+    color:#00AEEF !important;
+}
+
+body, html {
+    height: 100%;
+}
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: url("https://lh3.googleusercontent.com/pw/AM-JKLVHjSIqbwhD-XjesgP1oGDaAMehvds8QwkjBAJs_JPtcBuMbbPXzKxsI82vtXgma2SwbieMW88VvcoCnQfFRS7h5wiS5fXAmclRHdW2jLzelqYmkXtdxKHRPMrd4uA_00ZJlUuk7s85TO2JKOmyJ24=w1605-h903-no?authuser=1");
+
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+#why {
+    color: rgb(4, 80, 105) !important;
+    margin-top: 40px;
+}
+
+#team {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.966), #0275d8);
+  }
+
+.maintxt {
+  background-image: url(https://www.stthomas.edu/media/servicecenter/print-shop-hero-header-2400x900.png);
+}
+
+.gallery-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.stthomas.edu/media/servicecenter/print-shop-hero-header-2400x900.png");
+
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.gallery-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.checkout-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("http://printshopvegas.com/Printshopvegas33.png");
+
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.checkout-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.products-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.exposeyourselfusa.com/wp-content/uploads/2017/05/fort-lauderdale-printer-miami-printer.jpg");
+
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.products-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.contact-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://lh3.googleusercontent.com/pw/AM-JKLWesHDA785HOUXdihRQNQ6MSWi5CuRfD4EwoGyEdqEz7Xm5bSddRHohHpKwTZch7cP8dE00WWynwwPEdkj3n4F4hGGKl84CVoRaeX0vC900q1HNDn1C_id0ofI_bqTqI49eFpWak_GPU6hZzBBdUZTC=w1605-h903-no?authuser=1");
+
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.contact-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.card {
+    border: none
+}
+
+.product {
+    background-color: #eee
+}
+
+.brand {
+    font-size: 13px
+}
+
+.act-price {
+    color: red;
+    font-weight: 700
+}
+
+.dis-price {
+    text-decoration: line-through
+}
+
+.about {
+    font-size: 14px
+}
+
+.color {
+    margin-bottom: 10px
+}
+
+label.radio {
+    cursor: pointer
+}
+
+label.radio input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    pointer-events: none
+}
+
+label.radio span {
+    padding: 2px 9px;
+    border: 2px solid #ff0000;
+    display: inline-block;
+    color: #ff0000;
+    border-radius: 3px;
+    text-transform: uppercase
+}
+
+label.radio input:checked+span {
+    border-color: #ff0000;
+    background-color: #ff0000;
+    color: #fff
+}
+
+.btn-danger {
+    background-color: #ff0000 !important;
+    border-color: #ff0000 !important
+}
+
+.btn-danger:hover {
+    background-color: #da0606 !important;
+    border-color: #da0606 !important
+}
+
+.btn-danger:focus {
+    box-shadow: none
+}
+
+.cart i {
+    margin-right: 10px
+}
+
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { 
+  text-decoration: none; 
+}
+
